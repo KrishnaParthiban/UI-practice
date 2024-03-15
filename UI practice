@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.P.J.Abdul Kalam</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body >
+    <h1 > A.P.J.Abdul Kalam</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, porro!</p>
+    <div class="main">    
+        <h3 class="parent">About The Legend</h3>
+        <div class="content">
+            <ul>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo,<span> aliquam.</span></li><br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span> recusandae necessitatibus</span> placeat aut perspiciatis laborum.</li><br>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<span> Vero praesentium eius incidunt.</span></li><br>
+                <li>
+                    Lorem ipsum dolor sit amet <span>consectetur adipisicing elit</span>. Sit mollitia totam aliquid provident quos?
+                </li><br>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, excepturi. Eum soluta voluptas <span>aliquid expedita alias officia deserunt.</span></li><br>
+                <li>Lorem ipsum dolor sit amet consectetur <span>adipisicing elit.</span> Suscipit mollitia et inventore aperiam rem ut quis placeat quaerat animi maiores.</li><br>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ad quo dolores suscipit eius perspiciatis ratione nihil modi nemo porro? <span>DR.A.P.J.ABDULKALAM</span></li><br>
+                <li><span>Lorem ipsum dolor sit amet</span> consectetur adipisicing elit. Ab natus accusamus recusandae repellat aut perspiciatis, quis incidunt quasi nemo aperiam.</li><br>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS :
+
+body{
+     background-color: rgb(38, 173, 171);
+}
+
+h1,p{
+    text-align: center;
+}
+
+.parent{
+    text-align:center ;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(11, 9, 10);
+    
+}
+
+.main{
+    background-color: rgb(29, 200, 183);
+    margin-left: 320px;
+    margin-right: 320px;
+    box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .2);
+    
+    
+}
+span{
+    font-weight: bolder;
+}
+
+
+
